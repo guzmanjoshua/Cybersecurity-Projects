@@ -16,14 +16,14 @@ Download Autopsy & CFReDS File: **STEP 1**
 - Go to the CFReDS Portal website: [CFReDS Portal (nist.gov)](https://cfreds.nist.gov/)
 - For this lab choose ‘Forensics Image Test image’.
 
-![ADF0.1.png](Digitial%20Forensics%202bfd2a74368d4e16a385756736905dd1/ADF0.1.png)
+<img src="Digitial Forensics Pics Folder/ADF 1.png">
 
 Download Autopsy & CFReDS File: **STEP 2**
 
 - Select ‘drive.google.com/file/d/1Fd1pX1r4waRkD6Z2O8J5cRZyeSNU5-SY/view?usp=sharing’.
 - Download the file that pops up.
 
-![ADF0.2.png](Digitial%20Forensics%202bfd2a74368d4e16a385756736905dd1/ADF0.2.png)
+<img src="Digitial Forensics Pics Folder/ADF 2.png">
 
  
 
@@ -34,20 +34,20 @@ Create a Case: **STEP 1**
 - Open Autopsy once it is downloaded.
 - Click on New Case.
 
-![ADF1.png](Digitial%20Forensics%202bfd2a74368d4e16a385756736905dd1/ADF1.png)
+<img src="Digitial Forensics Pics Folder/ADF 3.png">
 
 Create a Case: **STEP 2**
 
 - Name the case in Case Name.
 - Press Next.
 
-![ADF3.png](Digitial%20Forensics%202bfd2a74368d4e16a385756736905dd1/ADF3.png)
+<img src="Digitial Forensics Pics Folder/ADF 4.png">
 
 Create a Case: **STEP 3**
 
 - Skip the information here and press Finish.
 
-![ADF4.png](Digitial%20Forensics%202bfd2a74368d4e16a385756736905dd1/ADF4.png)
+<img src="Digitial Forensics Pics Folder/ADF 5.png">
 
 ## Section 3: Add Data Source
 
@@ -55,14 +55,14 @@ Add Data Source: **STEP 1**
 
 - On Select Host press Next
 
-![ADF6.png](Digitial%20Forensics%202bfd2a74368d4e16a385756736905dd1/ADF6.png)
+<img src="Digitial Forensics Pics Folder/ADF 6.png">
 
 Add Data Source: **STEP 2**
 
 - Double Check to see if only the ‘Disk Image or VM File’ is enable.
 - Press Next.
 
-![ADF7.png](Digitial%20Forensics%202bfd2a74368d4e16a385756736905dd1/ADF7.png)
+<img src="Digitial Forensics Pics Folder/ADF 7.png">
 
 Add Data Source: **STEP 3**
 
@@ -70,7 +70,7 @@ Add Data Source: **STEP 3**
 - Right click on the file.
 - Left click on Copy as path.
 
-![ADF7.1.png](Digitial%20Forensics%202bfd2a74368d4e16a385756736905dd1/ADF7.1.png)
+<img src="Digitial Forensics Pics Folder/ADF 8.png">
 
 Add Data Source: **STEP 4**
 
@@ -78,20 +78,20 @@ Add Data Source: **STEP 4**
 - Change the time zone to your time zone.
 - Press Next.
 
-![ADF8.png](Digitial%20Forensics%202bfd2a74368d4e16a385756736905dd1/ADF8.png)
+<img src="Digitial Forensics Pics Folder/ADF 9.png">
 
 Add Data Source: **STEP 5**
 
 - Leave the select boxes as is.
 - Press Next.
 
-![ADF9.png](Digitial%20Forensics%202bfd2a74368d4e16a385756736905dd1/ADF9.png)
+<img src="Digitial Forensics Pics Folder/ADF 10.png">
 
 Add Data Source: **STEP 6**
 
 - Select Finish.
 
-![ADF10.png](Digitial%20Forensics%202bfd2a74368d4e16a385756736905dd1/ADF10.png)
+<img src="Digitial Forensics Pics Folder/ADF 12.png">
 
 ## Section 4: Explore The Data
 
@@ -107,7 +107,7 @@ Explore The Data: **STEP 1**
 
 As you scroll through the images, the most noticeable ones are those of the driver's license printer and the licensing insurance systems.
 
-![ADF11.png](Digitial%20Forensics%202bfd2a74368d4e16a385756736905dd1/2d40da4c-467b-4c68-88d5-122f91c1b37f.png)
+<img src="Digitial Forensics Pics Folder/ADF 13.png">
 
 Explore The Data: **STEP 2**
 
@@ -117,7 +117,7 @@ Explore The Data: **STEP 2**
 
 As you scroll through the plain text, the most noticeable text is the new price list. This list appears to include prices for credit cards, ID cards, green cards, driver’s licenses, and insurance certificates to print and send.
 
-![ADF12.png](Digitial%20Forensics%202bfd2a74368d4e16a385756736905dd1/ADF12.png)
+<img src="Digitial Forensics Pics Folder/ADF 14.png">
 
 Explore The Data: **STEP 3**
 
@@ -135,7 +135,7 @@ Explore The Data: **STEP 3**
 
 As you scroll through the emails, the ones that stand out are those where the new price list text file, which we saw earlier, was sent. We can see the emails and names it was from and sent to.
 
-![ADF13.png](Digitial%20Forensics%202bfd2a74368d4e16a385756736905dd1/ADF13.png)
+<img src="Digitial Forensics Pics Folder/ADF 15.png">
 
 ## Section 5: Piece it Together
 
