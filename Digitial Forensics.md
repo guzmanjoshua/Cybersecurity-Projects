@@ -91,7 +91,7 @@ Add Data Source: **STEP 6**
 
 - Select Finish.
 
-<img src="Digitial Forensics Pics Folder/ADF 12.png">
+<img src="Digitial Forensics Pics Folder/ADF 11.png">
 
 ## Section 4: Explore The Data
 
@@ -107,7 +107,7 @@ Explore The Data: **STEP 1**
 
 As you scroll through the images, the most noticeable ones are those of the driver's license printer and the licensing insurance systems.
 
-<img src="Digitial Forensics Pics Folder/ADF 13.png">
+<img src="Digitial Forensics Pics Folder/ADF 12.png">
 
 Explore The Data: **STEP 2**
 
@@ -117,7 +117,7 @@ Explore The Data: **STEP 2**
 
 As you scroll through the plain text, the most noticeable text is the new price list. This list appears to include prices for credit cards, ID cards, green cards, driver’s licenses, and insurance certificates to print and send.
 
-<img src="Digitial Forensics Pics Folder/ADF 14.png">
+<img src="Digitial Forensics Pics Folder/ADF 13.png">
 
 Explore The Data: **STEP 3**
 
@@ -135,7 +135,7 @@ Explore The Data: **STEP 3**
 
 As you scroll through the emails, the ones that stand out are those where the new price list text file, which we saw earlier, was sent. We can see the emails and names it was from and sent to.
 
-<img src="Digitial Forensics Pics Folder/ADF 15.png">
+<img src="Digitial Forensics Pics Folder/ADF 14.png">
 
 ## Section 5: Piece it Together
 
