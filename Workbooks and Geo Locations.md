@@ -18,13 +18,13 @@ The circles in the workbooks indicate the volume of attacks by their IP’s Geo 
 
 These are my 4 workbooks, with their KQL and Geo Location
 
-![MSW 1.png](Workbooks%20and%20Geo%20Locations%20b68f88170a24449c8ea623855ba349bf/MSW_1.png)
+<img src="Workbooks and Geo Locations Pics Folder/MSW 1.png">
 
 # linux-ssh-auth-fail.json
 
 Geo Location:
 
-![MSW 4.png](Workbooks%20and%20Geo%20Locations%20b68f88170a24449c8ea623855ba349bf/MSW_4.png)
+<img src="Workbooks and Geo Locations Pics Folder/MSW 2.png">
 
 KQL:
 
@@ -44,7 +44,7 @@ Syslog
 
 Geo Location: 
 
-![MSW 5.png](Workbooks%20and%20Geo%20Locations%20b68f88170a24449c8ea623855ba349bf/MSW_5.png)
+<img src="Workbooks and Geo Locations Pics Folder/MSW 3.png">
 
 KQL:
 
@@ -64,7 +64,7 @@ Event
 
 Geo Location:
 
-![MSW 3.png](Workbooks%20and%20Geo%20Locations%20b68f88170a24449c8ea623855ba349bf/MSW_3.png)
+<img src="Workbooks and Geo Locations Pics Folder/MSW 4.png">
 
 KQL:
 
@@ -83,7 +83,7 @@ MaliciousFlows
 
 Geo Location:
 
-![MSW 4.png](Workbooks%20and%20Geo%20Locations%20b68f88170a24449c8ea623855ba349bf/MSW_4%201.png)
+<img src="Workbooks and Geo Locations Pics Folder/MSW 5.png">
 
 KQL:
 
