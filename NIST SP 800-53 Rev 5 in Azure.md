@@ -21,20 +21,20 @@ Implementing NIST-53 Rev. 5: **STEP 1**
 - Select Microsoft Defender for Cloud.
 - If you don’t see the icon in the Azure home page, use the top search bar in Azure.
 
-![MDFC 1.png](NIST%20SP%20800-53%20Rev%205%20in%20Azure%208925b9f72d9d4fa1ba420c5e1e16ea35/MDFC_1.png)
+<img src="NIST SP 800-53 Rev 5 in Azure Pics Folder/MDFC 1.png">
 
 Implementing NIST-53 Rev. 5: **STEP 2**
 
 - Select Regulatory compliance.
 - Then select Manage compliance policies.
 
-![MDFC 2.png](NIST%20SP%20800-53%20Rev%205%20in%20Azure%208925b9f72d9d4fa1ba420c5e1e16ea35/MDFC_2.png)
+<img src="NIST SP 800-53 Rev 5 in Azure Pics Folder/MDFC 2.png">
 
 Implementing NIST-53 Rev. 5: **STEP 3**
 
 - DIRECTLY Click on Azure subscription 1 (The name may be different for you) which is next to the key icon.
 
-![MDFC 3.png](NIST%20SP%20800-53%20Rev%205%20in%20Azure%208925b9f72d9d4fa1ba420c5e1e16ea35/MDFC_3.png)
+<img src="NIST SP 800-53 Rev 5 in Azure Pics Folder/MDFC 3.png">
 
 Implementing NIST-53 Rev. 5: **STEP 4**
 
@@ -42,7 +42,7 @@ Implementing NIST-53 Rev. 5: **STEP 4**
 - Click on the dropdown button in the Subscription box.
 - Click on the subscription you want to use.
 
-![MDFC 6.png](NIST%20SP%20800-53%20Rev%205%20in%20Azure%208925b9f72d9d4fa1ba420c5e1e16ea35/MDFC_6.png)
+<img src="NIST SP 800-53 Rev 5 in Azure Pics Folder/MDFC 4.png">
 
 Implementing NIST-53 Rev. 5: **STEP 5**
 
@@ -50,14 +50,14 @@ Implementing NIST-53 Rev. 5: **STEP 5**
 - Click on the Resource Group you want to use.
 - Click on the Select button when finish.
 
-![MDFC 7.png](NIST%20SP%20800-53%20Rev%205%20in%20Azure%208925b9f72d9d4fa1ba420c5e1e16ea35/MDFC_7.png)
+<img src="NIST SP 800-53 Rev 5 in Azure Pics Folder/MDFC 5.png">
 
 Implementing NIST-53 Rev. 5: **STEP 6**
 
 - Click on the Review + create button.
 - When the review is finish, click on the create button.
 
-![MDFC 8.png](NIST%20SP%20800-53%20Rev%205%20in%20Azure%208925b9f72d9d4fa1ba420c5e1e16ea35/MDFC_8.png)
+<img src="NIST SP 800-53 Rev 5 in Azure Pics Folder/MDFC 6.png">
 
 ### Conclusion
 
