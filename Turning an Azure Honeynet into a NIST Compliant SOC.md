@@ -14,13 +14,13 @@ WindowsVM Creation: **STEP 2**
 
 - Click on the dropdown arrow.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 2.png">
 
 WindowsVM Creation: **STEP 3**
 
 - Click on ‘Azure Virtual machine’.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 3.png">
 
 WindowsVM Creation: **STEP 4**
 
@@ -28,27 +28,27 @@ WindowsVM Creation: **STEP 4**
 - In my lab I named the resource group ‘RG-SOC’. RG is the initials for ‘Resource Group’. This is a great naming convention to quickly understand what the object is.
 - For future VMs created under the same resource groups, just click the dropdown.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 4.png">
 
 WindowsVM Creation: **STEP 5**
 
 - Name the Virtual Machine. I named mines WindowsVM for windows virtual machine and LinuxVM for Linux virtual machine.
 - For the Region, pick what is right for you.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 5.png">
 
 WindowsVM Creation: **STEP 6**
 
 - For Availability zone I chose ‘No infrastructure redundancy required’.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 6.png">
 
 WindowsVM Creation: **STEP 7**
 
 - The Image is the operating system (OS) or application for the VM.
 - For my VM I chose ‘Windows 10 Pro, version 22H2 - x64 Gen2’ and ‘Ubuntu Server 20.04 LTS - x64 Gen2’ for my second VM.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 7.png">
 
 WindowsVM Creation: **STEP 8**
 
@@ -57,7 +57,7 @@ WindowsVM Creation: **STEP 8**
 - Check the box of the ‘I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights.’
 - Once finish, skip to Networking.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 8.png">
 
 WindowsVM Creation: **STEP 9**
 
@@ -66,13 +66,13 @@ WindowsVM Creation: **STEP 9**
 - De-select the Enable accelerated networking.
 - Once finish, press Review + Create button.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 9.png">
 
 WindowsVM Creation: **STEP 10**
 
 - Press the Create button.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 10.png">
 
 ## Section 2 - Edit the Firewall
 
@@ -81,25 +81,25 @@ Network Security Group: **STEP 1**
 - Once the VM is finished, go to the search tab and search for ‘Network security groups’.
 - Click on Network security groups.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 11.png">
 
 Network Security Group: **STEP 2**
 
 - Click on the WindowsVM that was just created.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 12.png">
 
 Network Security Group: **STEP 3**
 
 - Click on Inbound security rules.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 13.png">
 
 Network Security Group: **STEP 4**
 
 - Click on Add.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 14.png">
 
 Network Security Group: **STEP 5**
 
@@ -108,7 +108,7 @@ Network Security Group: **STEP 5**
 - When finished click on Save.
 - Repeat the steps for the LinuxVM that was just created.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 15.png">
 
 ## Section 3 - Connecting to the VMs
 
@@ -121,14 +121,14 @@ Connect to WindowsVM: **STEP 1**
 - Type in “Virtual machine”
 - Click on the Virtual machine text under Services.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 16.png">
 
 Connect to WindowsVM: **STEP 2**
 
 - Search for the name of your WindowsVM
 - Look under Public IP address to get the address.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 17.png">
 
 Connect to WindowsVM: **STEP 3**
 
@@ -137,14 +137,14 @@ Connect to WindowsVM: **STEP 3**
 - Click on Remote Desktop Connection under Best match.
 - Click on Open.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 18.png">
 
 Connect to WindowsVM: **STEP 4**
 
 - Input your WindowsVM public IP address on the Computer text box
 - When finish press Connect.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 19.png">
 
 Connect to LinuxVM: **STEP 1**
 
@@ -153,7 +153,7 @@ Connect to LinuxVM: **STEP 1**
 - Search for the name of your LinuxVM.
 - Look under Public IP address to get the address.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 20.png">
 
 Connect to LinuxVM: **STEP 2**
 
@@ -161,7 +161,7 @@ Connect to LinuxVM: **STEP 2**
 - On the search bar type in “Windows Powershell”.
 - Click on Run as Administrator.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 21.png">
 
 Connect to LinuxVM: **STEP 3**
 
@@ -170,11 +170,11 @@ Connect to LinuxVM: **STEP 3**
 - You will be prompted to enter your Linux password if successful.
 - If so, type in your Linux password. NOTE: Your input will not show to prevent shoulder surfing.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 22.png">
 
 - If successful a prompt like this will appear and the connection is complete.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 23.png">
 
 ## Section 4: Editing Windows Defender Firewall Rules in WindowsVM
 
@@ -187,32 +187,32 @@ Edit wf.msc in WindowsVM: **STEP 1**
 - On the search bar type in “wf.msc”.
 - Click on Run as Administrator.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 24.png">
 
 Edit wf.msc in WindowsVM: **STEP 2**
 
 - Click on “Windows Defender Firewall Properties”.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 25.png">
 
 Edit wf.msc in WindowsVM: **STEP 3**
 
 - In the Domain Profile turn the Firewall state Off.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 26.png">
 
 Edit wf.msc in WindowsVM: **STEP 4**
 
 - In the Private Profile turn the Firewall state Off.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 27.png">
 
 Edit wf.msc in WindowsVM: **STEP 5**
 
 - In the Public Profile turn the Firewall state Off.
 - When done press Apply and then press OK.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 28.png">
 
 ## Section 5: Implementing Incidents and Alerts List
 
@@ -223,19 +223,19 @@ Implementing Incidents and Alerts: **STEP 1**
 - In the top search bar type in “Microsoft Sentinel”.
 - Click on the Microsoft Sentinel text that is under Services.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 29.png">
 
 Implementing Incidents and Alerts: **STEP 2**
 
 - Click on your Log Analytics workspace, in my case its “LAW-SOC”.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 30.png">
 
 Implementing Incidents and Alerts: **STEP 3**
 
 - Click on Analytics.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 31.png">
 
 Implementing Incidents and Alerts: **STEP 4**
 
@@ -243,7 +243,7 @@ Implementing Incidents and Alerts: **STEP 4**
 - Click on Scheduled query rule.
 - If you have Incidents and Alerts files saved, you can press the Import button.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 32.png">
 
 To view the KQL, description, MITRE ATT&CK, response actions, and containment and recovery of my Incidents and Alerts list, click the link on the right: [Joshua Guzman - 13 Microsoft Azure Incidents i.e. (Alerts) GitHub Project](https://github.com/guzmanjoshua/Incident-Report/blob/main/Incidents%20Home%20Page.md)
 
@@ -260,76 +260,76 @@ Implementing Workbooks and Geo Locations: **STEP 1**
 - Repeat steps 1 and 2 of Implementing Incidents and Alerts.
 - So, navigate to Microsoft Sentinel and your Log Analytics workspace.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 33.png">
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 34.png">
 
 Implementing Workbooks and Geo Locations: **STEP 2**
 
 - Click on Workbooks on the left list.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 35.png">
 
 Implementing Workbooks and Geo Locations: **STEP 3**
 
 - Click on Add Workbook
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 36.png">
 
 Implementing Workbooks and Geo Locations: **STEP 4**
 
 - Click on Edit
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 37.png">
 
 Implementing Workbooks and Geo Locations: **STEP 5**
 
 - Click on the three dots icon on both of the default content.
 - Click on the Remove button.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 38.png">
 
 Implementing Workbooks and Geo Locations: **STEP 6**
 
 - Click on the Add button.
 - Click on the Add query button.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 39.png">
 
 Implementing Workbooks and Geo Locations: **STEP 7**
 
 - Click on the Time Range dropdown button.
 - Select Last 30 days.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 40.png">
 
 Implementing Workbooks and Geo Locations: **STEP 8**
 
 - Click on the Size dropdown button.
 - Select Full.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 41.png">
 
 Implementing Workbooks and Geo Locations: **STEP 9**
 
 - Click on the empty space in the middle of the screen to enter in your KQL.
 - When finished, click on Done Editing under the KQL box.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 42.png">
 
 Implementing Workbooks and Geo Locations: **STEP 10**
 
 - Click on Done Editing on top of the screen.
 - Click on the floppy disk save icon.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 43.png">
 
 Implementing Workbooks and Geo Locations: **STEP 11**
 
 - Fill in the information in the Save As box.
 - When finish click on the Apply button.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 44.png">
 
 To view the KQL, and Geo Locations of my Geo Location Workbooks, click the link on the right: [Joshua Guzman - Workbooks and Geo Locations](https://github.com/guzmanjoshua/Cybersecurity-Projects/blob/main/Workbooks%20and%20Geo%20Locations.md)
 
@@ -355,20 +355,20 @@ KQL Queries: **STEP 1**
 - On top of the search bar type in “Monitor”.
 - Click on the Monitor text that is under Services.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 45.png">
 
 KQL Queries: **STEP 2**
 
 - Click on the Logs text on the left list.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 46.png">
 
 KQL Queries: **STEP 3**
 
 - On the top left of the Logs check if the appropriate Log Analytics workspace is selected
 - If not click on the Select scope button.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 47.png">
 
 KQL Queries: **STEP 4**
 
@@ -377,7 +377,7 @@ KQL Queries: **STEP 4**
 - When you find the appropriate Log Analytics workspace click on its checkmark box.
 - When done press the Apply button.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 48.png">
 
 KQL Queries: **STEP 5**
 
@@ -385,13 +385,13 @@ KQL Queries: **STEP 5**
 - Once you finish inputting the KQL, press the Run button.
 - Below the KQL text box is where you can the results
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 49.png">
 
 KQL Queries: **STEP 6**
 
 - Use the Helper Queries listed below to help you gather the information.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 50.png">
 
 KQL Queries: **STEP 7**
 
@@ -399,7 +399,7 @@ KQL Queries: **STEP 7**
 - Use my results below to give you an example on how to organize the data.
 - Move on to Section 9 and further sections to make the honeynet secure, run it for 24 hours, and record the results.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 51.png">
 
 ## Section 9: Implementing NIST SP 800-53 Rev. 5
 
@@ -422,7 +422,7 @@ Revisiting Section 2: **STEP 1**
 - Go back to the Network Security Group.
 - On both of the LinuxVM and WindowsVM delete the “DANGERAllowAnyCustomAnyInbound” inbound security rule by pressing the trash icon.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 52.png">
 
 Revisiting Section 4: **STEP 1**
 
@@ -431,15 +431,15 @@ Revisiting Section 4: **STEP 1**
 - Turn the Firewall State on for the Domain, Private, and Public Profile.
 - When finish click on the Apply button then the OK button.
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 53.png">
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 54.png">
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 55.png">
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 56.png">
 
-<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 57.png">
 
 ## Section 11: Run the Honeynet for 24 hours Secured
 
