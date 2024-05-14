@@ -331,7 +331,7 @@ Implementing Workbooks and Geo Locations: **STEP 11**
 
 <img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 44.png">
 
-To view the KQL, and Geo Locations of my Geo Location Workbooks, click the link on the right: [Joshua Guzman - Workbooks and Geo Locations](https://github.com/guzmanjoshua/Cybersecurity-Projects/blob/main/Workbooks%20and%20Geo%20Locations.md)
+To view the KQL, and Geo Locations of my Geo Location Workbooks, click the link on the right: [Joshua Guzman - Workbooks and Geo Locations GitHub Project](https://github.com/guzmanjoshua/Cybersecurity-Projects/blob/main/Workbooks%20and%20Geo%20Locations.md)
 
 ## Section 7: Run the Honeynet for 24 Hours Unsecured
 
@@ -411,7 +411,7 @@ Furthermore, implementing NIST SP 800-53 Rev. 5 enhances the credibility and tru
 
 Overall, integrating NIST SP 800-53 Rev. 5 into an Azure Honeynet aids in maintaining a secure, resilient, and trusted network environment, ultimately protecting valuable data and systems from threats.
 
-To learn how to implement NIST SP 800-53 Rev. 5, click the link on the right: [Joshua Guzman - NIST SP 800-53 Rev 5 in Azure](https://github.com/guzmanjoshua/Cybersecurity-Projects/blob/main/NIST%20SP%20800-53%20Rev%205%20in%20Azure.md)
+To learn how to implement NIST SP 800-53 Rev. 5, click the link on the right: [Joshua Guzman - NIST SP 800-53 Rev 5 in Azure GitHub Project](https://github.com/guzmanjoshua/Cybersecurity-Projects/blob/main/NIST%20SP%20800-53%20Rev%205%20in%20Azure.md)
 
 ## Section 10: Secure the Environment
 
