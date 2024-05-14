@@ -411,7 +411,7 @@ Furthermore, implementing NIST SP 800-53 Rev. 5 enhances the credibility and tru
 
 Overall, integrating NIST SP 800-53 Rev. 5 into an Azure Honeynet aids in maintaining a secure, resilient, and trusted network environment, ultimately protecting valuable data and systems from threats.
 
-To learn how to implement NIST SP 800-53 Rev. 5, click the link on the right: [Cybersecurity-Projects/NIST SP 800-53 Rev 5 in Azure.md at main · guzmanjoshua/Cybersecurity-Projects (github.com)](https://github.com/guzmanjoshua/Cybersecurity-Projects/blob/main/NIST%20SP%20800-53%20Rev%205%20in%20Azure.md)
+To learn how to implement NIST SP 800-53 Rev. 5, click the link on the right: [Joshua Guzman - NIST SP 800-53 Rev 5 in Azure](https://github.com/guzmanjoshua/Cybersecurity-Projects/blob/main/NIST%20SP%20800-53%20Rev%205%20in%20Azure.md)
 
 ## Section 10: Secure the Environment
 
