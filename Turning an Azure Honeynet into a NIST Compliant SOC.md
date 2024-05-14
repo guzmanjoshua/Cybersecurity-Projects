@@ -8,7 +8,7 @@ WindowsVM Creation: **STEP 1**
 
 - First, at the home page click on “Virtual machines.”
 
-![1.2 VM.png](Turning%20an%20Azure%20Honeynet%20into%20a%20NIST%20Compliant%20SO%20e347942d754641b7ac914de3898d9922/1.2_VM.png)
+<img src="Turning an Azure Honeynet into a NIST Compliant SOC/HN 1.png">
 
 WindowsVM Creation: **STEP 2**
 
