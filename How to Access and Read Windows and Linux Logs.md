@@ -10,7 +10,7 @@ Window Logs: **Step 1**
 - Type in “Event Viewer”.
 - Open Event Viewer.
 
-![EV1.png](How%20to%20Access%20and%20Read%20Windows%20and%20Linux%20Logs%201232a6494a224577b9797ec519088eab/EV1.png)
+<img src="Windows and Linux Logs Pics/LWL1.png">
 
 Window Logs: **Step 2**
 
@@ -29,7 +29,7 @@ Here is a description of all the event logs:
 
 1. **Forwarded Event:** A record of events forwarded from other computers in the same network to a "collector computer" for centralized monitoring and management.
 
-![EV2.png](How%20to%20Access%20and%20Read%20Windows%20and%20Linux%20Logs%201232a6494a224577b9797ec519088eab/EV2.png)
+<img src="Windows and Linux Logs Pics/LWL2.png">
 
 Window Logs: **Step 3**
 
@@ -86,7 +86,7 @@ For example, common keywords might include:
 
 1. **Computer:** The name of the computer or device on which the event occurred.
 
-![Untitled](How%20to%20Access%20and%20Read%20Windows%20and%20Linux%20Logs%201232a6494a224577b9797ec519088eab/Untitled.png)
+<img src="Windows and Linux Logs Pics/LWL3.png">
 
 Window Logs: **Step 4**
 
@@ -123,7 +123,7 @@ Here is a description of most of the details in the Details tab:
     - **SubjectLogonId:** Represents the unique identifier associated with the logon session of the user account involved in the event. Logon sessions are created when a user logs into a system, and each session is assigned a unique logon ID (LogonId) by the Windows operating system. This LogonId helps track and identify activities associated with specific user logon sessions. The "SubjectLogonId" field is particularly relevant in security-related events, such as logon events or activities related to user authentication, where it helps correlate events with specific user logon sessions.
     - **PrivilegeList:** A list of privileges associated with a user account or security context within a Windows operating system. Privileges in Windows represent specific rights or permissions that are granted to user accounts or security principals to perform various system-related tasks or operations. These privileges control access to resources and system functionality, and they are assigned to user accounts based on their security context and role within the system. The "PrivilegeList" field is commonly found in security-related events, particularly those related to access control, authentication, or authorization activities. It may contain a list of privileges held by a user account or security principal at the time of the event.
 
-![Untitled](How%20to%20Access%20and%20Read%20Windows%20and%20Linux%20Logs%201232a6494a224577b9797ec519088eab/Untitled%201.png)
+<img src="Windows and Linux Logs Pics/LWL4.png">
 
 ## Section 2: Accessing and Reading Linux Logs
 
@@ -134,7 +134,7 @@ Linux Logs: **Step 1**
 - To access the Linux Logs, go to the menu icon on the bottom left of the task bar.
 - Open Terminal.
 
-![LL 1.png](How%20to%20Access%20and%20Read%20Windows%20and%20Linux%20Logs%201232a6494a224577b9797ec519088eab/LL_1.png)
+<img src="Windows and Linux Logs Pics/LWL5.png">
 
 Linux Logs: **Step 2**
 
@@ -149,16 +149,16 @@ Linux Logs: **Step 2**
     - **6th Column - Last Modified Date and Time:** The date and time of the last modification of the log. Taking the below example of the first log, “Apr 24 11:20” is the last modification time of the log.
     - **7th - File Name:** The name of the log. Taking the below example of the first log, alternatives.log is the name of the log.
 
-![LL 2.png](How%20to%20Access%20and%20Read%20Windows%20and%20Linux%20Logs%201232a6494a224577b9797ec519088eab/LL_2.png)
+<img src="Windows and Linux Logs Pics/LWL6.png">
 
-![LL 3.png](How%20to%20Access%20and%20Read%20Windows%20and%20Linux%20Logs%201232a6494a224577b9797ec519088eab/LL_3.png)
+<img src="Windows and Linux Logs Pics/LWL7.png">
 
 Linux Logs: **Step 3**
 
 - To only get the log names for a minimize view, type in “ls” in the terminal.
 - If you see an error, make sure you changed the directory to /var/log.
 
-![LL 4.png](How%20to%20Access%20and%20Read%20Windows%20and%20Linux%20Logs%201232a6494a224577b9797ec519088eab/LL_4.png)
+<img src="Windows and Linux Logs Pics/LWL8.png">
 
 Linux Logs: **Step 4**
 
@@ -166,13 +166,13 @@ Linux Logs: **Step 4**
     - Sudo stands for “Super User DO”. It’s a command in Linux that allows users to run certain commands with elevated privileges, similar to the “run as administrator” option in Windows.
     - Cat stands for “concatenate”.  This command displays the contents of one or more files and logs without having to open the file and logs for editing.
 
-![LL 5.png](How%20to%20Access%20and%20Read%20Windows%20and%20Linux%20Logs%201232a6494a224577b9797ec519088eab/LL_5.png)
+<img src="Windows and Linux Logs Pics/LWL9.png">
 
 Linux Logs: **Step 5**
 
 - Some logs might be encrypted. To decrypt the log to be human readable just type in “last” in the terminal.
 
-![LL 6.png](How%20to%20Access%20and%20Read%20Windows%20and%20Linux%20Logs%201232a6494a224577b9797ec519088eab/LL_6.png)
+<img src="Windows and Linux Logs Pics/LWL10.png">
 
 Linux Logs: **Step 6**
 
@@ -211,4 +211,4 @@ Linux Logs: **Step 6**
     - **unattended-upgrades:** Contains logs related to the unattended-upgrades package, which automates the process of installing security updates on the system. These logs document events and activities associated with the unattended-upgrades service, including package downloads, installation, and any errors or warnings encountered during the upgrade process. The logs within this directory, such as unattended-upgrades.log, provide detailed information about upgrade operations, configuration changes, and the status of security updates applied to the system. The unattended-upgrades logs are valuable for monitoring the automated update process, troubleshooting upgrade failures, and ensuring that the system remains secure by keeping up-to-date with the latest security patches on Ubuntu systems.
     - **wtmp:** Records login and logout events on the system. It maintains a historical record of user sessions, storing details such as the username, login/logout timestamps, terminal or IP address, and duration of the session. The wtmp file is used by utilities like last to display information about user login activity, including who logged in, when they logged in, and from where. System administrators utilize the wtmp file to track user activity, monitor login patterns, and audit system access, contributing to overall system security and accountability on Ubuntu systems.
 
-![LL 4.png](How%20to%20Access%20and%20Read%20Windows%20and%20Linux%20Logs%201232a6494a224577b9797ec519088eab/LL_4.png)
+<img src="Windows and Linux Logs Pics/LWL8.png">
