@@ -17,8 +17,6 @@ Let's begin our journey into the world of Active Directory!
 - Use the link to download Oracle VB [Downloads – Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 - Select the platform you are using under VirtualBox Platform Packages and download the VirtualBox Extension Pack
     
-    ![ADHL 1.png](ADHL_1.png)
-    
 
 - Use the link to download the Windows 10 ISO [Download Windows 10 (microsoft.com)](https://www.microsoft.com/en-us/software-download/windows10)
 - Use the link to download the Windows Server 2019 ISO [Windows Server 2019 | Microsoft Evaluation Center](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019)
