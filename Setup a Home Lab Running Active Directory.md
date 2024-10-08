@@ -10,7 +10,7 @@ This lab is designed to provide you with a solid foundation in Active Directory 
 
 Let's begin our journey into the world of Active Directory!
 
-![Active Directory Powershell lab.drawio.png](Active_Directory_Powershell_lab.drawio.png)
+<img src="Setup a Home Lab AD Pics folder/Active Directory Powershell lab.drawio.png">
 
 # Section 1: Download Oracle VirtualBox, Windows 10 ISO, and Server 19 ISO
 
