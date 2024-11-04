@@ -148,7 +148,6 @@ Let's begin our journey into the world of Active Directory!
 - Navigate the file explorer to where you downloaded the unzip file and click on ‘1_CREATE_USERS’.
 - In the PowerShell terminal type in ‘Set-ExecutionPolicy Unrestricted’, press Enter and click ‘Yes to All’.
 - In the PowerShell terminal type in ‘cd C:\users\a-jguzman\desktop\AD_PS-master’ and press Enter.
-- (In the PowerShell terminal type in ‘ls’ and press Enter.) Skip???
 - On the top of the PowerShell window click on the green play button.
 - Click on ‘Run once’ and let it create all the users. If you get errors don’t worry about it since its just duplicate names in the text document.
 - It may take a while but once finish open up ‘Active Directory Users and Computers’.
