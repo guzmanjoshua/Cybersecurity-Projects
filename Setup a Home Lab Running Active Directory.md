@@ -180,9 +180,9 @@ Let's begin our journey into the world of Active Directory!
 <img src="Setup a Home Lab Running Active Directory/ADHL_28.png">
 
 - Click on ‘Active Directory Users and Computers’.
-- Right click on [mydoamin.com](http://mydoamin.com) and click on New and click on Organizational Unit.
+- Right click on mydoamin.com and click on New and click on Organizational Unit.
 - Name it ‘_ADMINS’ and uncheck the box for ‘Protect container from accidental detection’ and click OK.
-- Click on the arrow key next to [mydomain.com](http://mydomain.com) and you should see _ADMINS.
+- Click on the arrow key next to mydomain.com and you should see _ADMINS.
 - Right click on _ADMINS and click on New and click on User.
 
 <img src="Setup a Home Lab Running Active Directory/ADHL_29.png">
@@ -305,10 +305,10 @@ Let's begin our journey into the world of Active Directory!
 
 - You can either copy this link and paste it in the URL in the VM in internet explorer and download the file.
 - Or download the file on your mmain computer, unzip it, and move it to the VM.
-https://github.com/guzmanjoshua/Cybersecurity-Projects/blob/main/Setup%20a%20Home%20Lab%20Running%20Active%20Directory/AD_PS-master.zip
+[Joshua Guzman - AD PS Zip File](https://github.com/guzmanjoshua/Cybersecurity-Projects/blob/main/Setup%20a%20Home%20Lab%20Running%20Active%20Directory/AD_PS-master.zip)
 
 - To get a detail explanation of the Script you can go to my other github link.
-https://github.com/guzmanjoshua/Cybersecurity-Projects/blob/main/Explanation%20of%20the%201000%20Users%20Script%20(1_CREATE_USERS).md
+[Joshua Guzman - Explanation of the 1000 Users Script (1_CREATE_USERS) Github](https://github.com/guzmanjoshua/Cybersecurity-Projects/blob/main/Explanation%20of%20the%201000%20Users%20Script%20(1_CREATE_USERS).md)
 
 - Unzip the file to C:\users\a-jguzman(your admin account name)\desktop\AD_PS-master.
 - Open the file and open the text file names.txt.
@@ -341,11 +341,11 @@ https://github.com/guzmanjoshua/Cybersecurity-Projects/blob/main/Explanation%20o
 
 - Click on ‘Run once’ and let it create all the users. If you get errors don’t worry about it since its just duplicate names in the text document.
 - It may take a while but once finish open up ‘Active Directory Users and Computers’.
-- Expand [mydomain.com](http://mydomain.com). Click on _USERS and you will see all the users that was just created.
+- Expand mydomain.com. Click on _USERS and you will see all the users that was just created.
 
  <img src="Setup a Home Lab Running Active Directory/ADHL_56.png">
 
-- To find the users by name you can right click on [mydomain.com](http://mydomain.com), click on Find, you can type in the names on Name and click on ‘Find Now’.
+- To find the users by name you can right click on mydomain.com, click on Find, you can type in the names on Name and click on ‘Find Now’.
 
 # Section 8: Create and Setup Windows 10 VM
 
