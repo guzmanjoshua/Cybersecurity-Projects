@@ -12,7 +12,7 @@ Let's begin our journey into the world of Active Directory!
 
 # Quick Diagram Overview
 
-![Active Directory Powershell lab.drawio.png](Active_Directory_Powershell_lab.drawio.png)
+<img src="Setup a Home Lab Running Active Directory/ADHL_1.png">
 
 # Section 1: Download Oracle VirtualBox, Windows 10 ISO, and Server 19 ISO
 
