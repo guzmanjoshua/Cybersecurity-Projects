@@ -286,8 +286,6 @@ Let's begin our journey into the world of Active Directory!
 
 # Section 7: Use PowerShell to Add 1k Users
 
-[AD_PS-master.zip](AD_PS-master.zip)
-
 - We are going to download a script for PowerShell using internet explorer. First, we want to disable ‘IE Enhanced Security Configuration’. In a production environment you do not want to do this, but since we are in a sandbox environment it is ok.
 - In Server Manager, click on ‘Configure this local server’.
 
@@ -305,8 +303,13 @@ Let's begin our journey into the world of Active Directory!
 
  <img src="Setup a Home Lab Running Active Directory/ADHL_49.png">
 
-- use this link to download the file to use in PowerShell
+- You can either copy this link and paste it in the URL in the VM in internet explorer and download the file.
+- Or download the file on your mmain computer, unzip it, and move it to the VM.
+https://github.com/guzmanjoshua/Cybersecurity-Projects/blob/main/Setup%20a%20Home%20Lab%20Running%20Active%20Directory/AD_PS-master.zip
+
 - To get a detail explanation of the Script you can go to my other github link.
+https://github.com/guzmanjoshua/Cybersecurity-Projects/blob/main/Explanation%20of%20the%201000%20Users%20Script%20(1_CREATE_USERS).md
+
 - Unzip the file to C:\users\a-jguzman(your admin account name)\desktop\AD_PS-master.
 - Open the file and open the text file names.txt.
 
