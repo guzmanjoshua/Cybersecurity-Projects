@@ -6,7 +6,7 @@ Line 2 sets all the Users passwords as ‘Password1’.
 Line 3 collects all the names in the names.txt file and put them in an array.
 
 Line 6 converts the string into a SecureString or a password object.
-Line 7 creates a new file called _USERS under [mydomain.com](http://mydomain.com) in Active Directory Users and Computers. The ‘-ProtectedFromAccidentalDeletion $False’ portion unchecks the named box.
+Line 7 creates a new file called _USERS under mydomain.com in Active Directory Users and Computers. The ‘-ProtectedFromAccidentalDeletion $False’ portion unchecks the named box.
 
 <img src="Explanation of the 1000 Users Script (1_CREATE_USERS) Pics/EOTUS_2.png">
 
